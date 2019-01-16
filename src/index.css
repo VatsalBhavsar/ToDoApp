@@ -1,0 +1,89 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+
+  .taskName{
+    width: 80%;
+    padding-left: 10px
+  }
+
+  .taskNameContainer{
+    display: flex;
+    width: 40%;
+    margin-bottom: 5px;
+  }
+
+  .taskNameContainer:last-child{
+    margin-bottom: 0px;
+  }
+
+  .strikeThrough{
+    text-decoration: line-through;
+  }
+
+  .linkList{
+    display: flex;
+    padding: 0px;
+  }
+
+  .linkList li{
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  .mt20{
+    margin-top: 20px;
+  }
+
+  .ml20{
+    margin-left: 20px;
+  }
